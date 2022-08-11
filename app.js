@@ -40,7 +40,7 @@ function nuevaListaDeProducto() {
                 break;
             case 3:
                 sacar = prompt(`Cual deseas eliminar?
-                    ${productoN.join("\n")}`);
+                    ${productoN.join("\n")}`) // metodo join une todos los elementos de una matriz
                 eliminar(sacar);
                 nuevaListaDeProducto();
                 break;  
